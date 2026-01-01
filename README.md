@@ -8,27 +8,31 @@ A minimal, fast and simple file compression tool built with Rust. 🦀🚀
 - Lightweight and fast ⚡  
 - Written entirely in Rust 🦀  
 
-🚚 Installation  
+## 🚚 Installation
 
 ```bash
 git clone https://github.com/vedansh06/rust-compress.git
 cd rust-compress
 cargo build --release
 
+
 🛠️ Usage
 
 Just run:
 
+```bash
 cargo run <source> <target>
 
 
 Example:
 
+``bash
 cargo run input.txt output.gz
 
 
 📌 Output
 
+```text
 Source len: 20480
 Target len: 5120
 Elapsed: 8.4ms
