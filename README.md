@@ -1,7 +1,9 @@
 🦀 rust-compress  
+
 A minimal, fast and simple file compression tool built with Rust. 🦀🚀
 
 ✨ Features  
+
 - Gzip file compression 🗜️  
 - Displays source & compressed file sizes 📊  
 - Measures compression time ⏱️  
@@ -10,29 +12,33 @@ A minimal, fast and simple file compression tool built with Rust. 🦀🚀
 
 ## 🚚 Installation
 
-```bash
+```js
 git clone https://github.com/vedansh06/rust-compress.git
 cd rust-compress
 cargo build --release
+```
 
 
 🛠️ Usage
 
 Just run:
 
-```bash
+```js
 cargo run <source> <target>
+```
 
 
 Example:
 
-``bash
+```js
 cargo run input.txt output.gz
+```
 
 
 📌 Output
 
-```text
+```js
 Source len: 20480
 Target len: 5120
 Elapsed: 8.4ms
+```
